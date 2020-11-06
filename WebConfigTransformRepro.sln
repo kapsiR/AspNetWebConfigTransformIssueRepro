@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConfigTransformRepro", "WebConfigTransformRepro\WebConfigTransformRepro.csproj", "{01143F75-2603-431D-8DE8-F68A8DEC569D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01143F75-2603-431D-8DE8-F68A8DEC569D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01143F75-2603-431D-8DE8-F68A8DEC569D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01143F75-2603-431D-8DE8-F68A8DEC569D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01143F75-2603-431D-8DE8-F68A8DEC569D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82E2420E-1089-4071-A122-281BB3C84896}
+	EndGlobalSection
+EndGlobal
