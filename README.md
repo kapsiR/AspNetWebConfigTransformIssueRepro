@@ -1,3 +1,19 @@
+# 2021-01-21 Update
+
+The [KB article has been updated with known issues](https://support.microsoft.com/en-us/help/4578969/kb4578969-cumulative-update-for-net-framework#section-2) where this bug has been addressed.  
+There is a workaround available:
+> **Workaround**  
+> Customers who observe new unexpected failures or functional issues can implement an application setting by adding (or merging) the following code to the application configuration file. Setting either “true” or “false” will avoid the issue. However, we recommend that you set this value to “true” for sites that do not rely on cookieless features.
+> ```
+> <?xml version="1.0" encoding="utf-8" ?>
+> <configuration>
+>      <appSettings>
+>          <add key=”aspnet:DisableAppPathModifier” value=”true” />
+>     </appSettings>
+> </configuration>
+> ```
+>
+
 # Reproduce issue introduced with KB4578969
 
 This is a short minimum reproduceable example for an issue introduced with the latest .NET Framework Update [KB4578969](https://support.microsoft.com/en-us/help/4578969/kb4578969-cumulative-update-for-net-framework).
