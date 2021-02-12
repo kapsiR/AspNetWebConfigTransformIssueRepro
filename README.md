@@ -1,3 +1,9 @@
+# 2021-02-12 Update
+This issue has been fixed with the [.NET Framework February Security and Quality Rollup](https://devblogs.microsoft.com/dotnet/net-framework-february-security-and-quality-rollup/#asp-net):
+
+> **ASP.NET**  
+>  - Addresses an issue where after installing the update released on October 20th, some ASP.Net applications fail during precompilation – likely with a message that contains the words “Error ASPCONFIG.”
+
 # 2021-01-21 Update
 
 The [KB article has been updated with known issues](https://support.microsoft.com/en-us/help/4578969/kb4578969-cumulative-update-for-net-framework#section-2) where this bug has been addressed.  
